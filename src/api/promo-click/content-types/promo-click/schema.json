@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promo_clicks",
+  "info": {
+    "singularName": "promo-click",
+    "pluralName": "promo-clicks",
+    "displayName": "PromoClick"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "promo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::promo.promo"
+    }
+  }
+}
